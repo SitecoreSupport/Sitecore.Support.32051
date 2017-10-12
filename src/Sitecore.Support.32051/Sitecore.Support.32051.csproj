@@ -72,9 +72,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.32051.config" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="web.config" />
   </ItemGroup>
   <PropertyGroup>

@@ -42,6 +42,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\..\lib\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Framework.Publishing.Abstractions">
+      <HintPath>..\..\lib\Sitecore.Framework.Publishing.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Framework.Publishing.Common">
+      <HintPath>..\..\lib\Sitecore.Framework.Publishing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Framework.Publishing.Data">
       <HintPath>..\..\lib\Sitecore.Framework.Publishing.Data.dll</HintPath>
     </Reference>
@@ -58,6 +67,7 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Framework\Publishing\Data\Classic\ClassicItemRepository.cs" />
     <Compile Include="Framework\Publishing\Data\Classic\DatabaseItemReadRepositoryBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

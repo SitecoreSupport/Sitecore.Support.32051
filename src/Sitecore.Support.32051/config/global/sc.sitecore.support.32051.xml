@@ -1,0 +1,12 @@
+<Settings> 
+  <Sitecore>
+    <Publishing>
+      <Services>
+        <DatabaseItemReadRepositoryBuilder>
+          <Type>Sitecore.Support.Framework.Publishing.Data.Classic.DatabaseItemReadRepositoryBuilder, Sitecore.Support.32051</Type>
+          <As>Sitecore.Framework.Publishing.Repository.IRepositoryBuilder`1[[Sitecore.Framework.Publishing.Item.IIndexableItemReadRepository, Sitecore.Framework.Publishing.Service.Abstractions]], Sitecore.Framework.Publishing.Service.Abstractions</As>
+        </DatabaseItemReadRepositoryBuilder>        
+      </Services>
+      </Publishing>
+  </Sitecore>
+</Settings>
